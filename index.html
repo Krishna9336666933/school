@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <title>Realtime Image Identification</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+  <center>
+  <h3 class="btn btn-info heading">IT IS FOR RECOGNISING THINGSSSSS!!! QUICKLY!</h3>
+  <hr>
+  </center>
+  <div class="google">
+    <p>Model is Trained on your face </p>
+    <br>
+    <div class="idk">PHONE | YOUR FACE | GLASS | HEADPHONES
+    </div>
+<span>
+<button id = "blur" onclick = "blur()">BLUR!!</button>
+
+<button id = "grey" onclick = "grey()">GREY!!</button>
+
+<button id = "invert" onclick = "invert()">INVERT!!</button>
+
+</span>
+
+    </center>
+  </div>
+  <br>
+  <p class="btn btn-warning result_para_tag">Object:<span id="result_object_name"></span></p>
+
+  <br>
+
+  <p class="btn btn-warnig result_para_tag"> Accuracy: <span id="result_accuracy_nothing">
+    </span>
+  </p>
+  <br>
+  <br>
+</center>
+<div class = "copy_right_footer">
+  DEVELOPED BY ------___-------
+</div>
+  <body>
+
+    <script src="main.js"></script>
+  </body>
+
+</html>
